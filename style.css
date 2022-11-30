@@ -91,4 +91,15 @@ body{
   .container{
     margin-top: -100px;
   } */
-  
+  #humidity{
+    margin-top: -15px;
+  }
+  #windspeed{
+    margin-top: -15px;
+  }
+  #sunrise{
+    margin-top: -15px;
+  }
+  #sunset{
+    margin-top: -15px;
+  }
