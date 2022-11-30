@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -83,8 +84,8 @@ set=tempdata.sys.sunset;
 humid=tempdata.main.humidity;
 wind=tempdata.wind.speed;
 fahr=(tempdata.main.temp)
-a=(fahr-32)*5;
-celcius=Math.floor(a/9);
+a=(fahr-273.15);
+celcius=Math.floor(a);
 
 
 
@@ -109,4 +110,4 @@ imag.src=`./images/${weathertype}.jpg`
 
 </script>
 
-</html>
+</html
